@@ -1,6 +1,5 @@
 import { Dimensions, Image, ImageBackground, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
-
 export default function Index() {
     return (
         <SafeAreaProvider>
@@ -17,7 +16,7 @@ export default function Index() {
 
                         <View style={styles.textGroup}>
                             <Text style={styles.textLarge}>Find your favorite place here</Text>
-                            <Text style={styles.textSmall}>The best, prices for over 2 </Text>
+                            <Text style={styles.textSmall}>The best prices for over 2 </Text>
                             <Text style={styles.textSmall}>million properties worldwide</Text>
                         </View>
 
